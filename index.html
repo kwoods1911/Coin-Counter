@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Money Counter Online</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<h1>Money Counter Online</h1>
+
+	<h4>Easily count your spare change!</h4>
+
+
+	<form id="money-form">
+
+		<h2>BANK NOTES</h2>
+		<label>$100.00 x 
+			<input class="input-amount" id="hundreds"type="number" placeholder="Hundreds">=  <span class="results-styles" id="hundreds-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$50.00 x
+			<input class="input-amount"  id="fifties"type="number" placeholder="Fifties"> = <span class="results-styles" id="fifties-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$20.00 x
+			<input class="input-amount" id="twenties"type="number" placeholder="Twenties">= <span class="results-styles" id="twenties-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$10.00 x
+			<input class="input-amount" id="tens"type="number" placeholder="Tens">= <span class="results-styles" id="tens-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$5.00 x
+			<input class="input-amount" id="fives"type="number" placeholder="Fives">= <span class="results-styles" id="fives-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$1.00 x
+			<input class="input-amount" id="ones"type="number" placeholder="Ones">= <span class="results-styles" id="ones-results">$0.00 </span>
+		</label>
+
+		<h2>COINS</h2>
+
+		<label>$0.25 x
+			<input class="input-amount" id="quarters" type="number" placeholder="Quarters">= <span class="results-styles" id="quater-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$0.10 x
+			<input class="input-amount" id="dimes"type="number" placeholder="Dimes">= <span class="results-styles" id="tens-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$0.05 x
+			<input class="input-amount" id="nickels"type="number" placeholder="Nickels">= <span class="results-styles" id="five-results">$0.00 </span>
+		</label>
+		<br>
+		<label>$0.01 x
+			<input class="input-amount" id="pennies"type="number" placeholder="Pennies">= <span class="results-styles" id="pennies-results">$0.00 </span>
+		</label>
+
+		<br>
+
+		<button>Calculate</button>
+
+		<div id="total-results">
+	</div>
+
+	</form>
+
+
+	
+	<script src="conversion.js"></script>
+</body>
+</html>

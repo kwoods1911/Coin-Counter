@@ -33,7 +33,7 @@ const finalCalculation = function(amtHuns,amtFifts,amtTwets,amtTens,amtFivs,amtO
  (amtNickles * 0.05),
  (amtPens * 0.01)
  ]
- console.log(totalCalc)
+ // console.log(totalCalc)
  return totalCalc
 }
 
@@ -64,7 +64,7 @@ moneyForm.addEventListener('submit',function(e){
 		},0)
 
 	// Display Final result
-	displayTotalResults(sum)
+	displayTotalResults(sum.toFixed(2))
 
 	// Displaying individual calculations
 	for(i=0; i<resultSpans.length; i++){

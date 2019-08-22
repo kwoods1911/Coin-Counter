@@ -36,6 +36,31 @@ form{
 	border-bottom:1px solid #8EAC91;
 }
 
+#total-results{
+	color:#DB3C3B;
+}
+
+button{
+	color:#fff;
+	background-color: #1ABC9C;
+	border:none;
+	border-radius: 12px;
+	padding:18px 32px;
+	margin:12px 0;
+	cursor:pointer;
+}
+
+
+
+.explaination{
+	margin:0 auto;
+	width:70%;
+}
+
+iframe{
+	max-width:560px;
+}
+
 /*.input-amount:hover::-webkit-input-placeholder {
     color: #fff;
 }*/
@@ -63,15 +88,3 @@ form{
 /*End of centering*/
 
 
-#total-results{
-	color:#DB3C3B;
-}
-
-button{
-	color:#fff;
-	background-color: #1ABC9C;
-	border:none;
-	border-radius: 12px;
-	padding:18px 32px;
-	margin:12px 0;
-}
